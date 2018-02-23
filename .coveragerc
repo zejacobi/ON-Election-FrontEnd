@@ -1,0 +1,17 @@
+[run]
+source =
+    Lib
+
+omit =
+    # omit anything in the venv
+    venv/*
+    # omit anything in the Test folder
+    Tests/*
+    # omit the polls folder
+    Polls/*
+    # omit the tests.py file
+    tests.py
+    # omit the __init__.py files
+    Lib/__init__.py
+    # omit the file used for parsing polls
+    save_poll.py
